@@ -38,33 +38,38 @@ header {
   padding-top: 10px;
 }
 
+/*********************************** portfolio *************************/
+
 #portfolio {
   text-align: center;
 }
+/*testing****************************** testing ******************/
+@media (min-width: 600px) {
+  .portfolio-section {
+    display: flex;
+  }
 
-.portfolio-section {
-  display: flex;
-}
+  .portfolio-list {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+  }
 
-.portfolio-list {
-  width: 80%;
-  margin: auto;
-  padding: 10px;
-}
+  .portfolio-img {
+    padding: 10px;
+  }
 
-.portfolio-img {
-  padding: 10px;
-}
+  .portfolio-item {
+    margin: 5px;
+  }
 
-.portfolio-item {
-  margin: 5px;
+  .portfolio-text {
+    width: 50%;
+    padding: 10px;
+    margin-right: 5px;
+  }
 }
-
-.portfolio-text {
-  width: 50%;
-  padding: 10px;
-  margin-right: 5px;
-}
+/****************************** about ************************/
 
 #about {
   text-align: center;
@@ -75,13 +80,17 @@ header {
   color: #fff;
   padding: 15px;
 }
-
-.about-content {
-  display: flex;
-  width: 50%;
-  margin: auto;
-  padding: 10px;
+/*testing******************************************** testing******/
+@media (min-width: 600px) {
+  .about-content {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+  }
 }
+
+/******************************contact *************************/
 
 #contact {
   text-align: center;
@@ -96,6 +105,8 @@ header {
   text-decoration: none;
   color: #16e0bd;
 }
+
+/**************************** footer ****************************/
 
 .footer-web {
   display: flex;
@@ -149,4 +160,24 @@ header {
   display: inline-flex;
   color: #000;
   width: 4%;
+}
+
+/**************************** Social buttons *********************/
+
+.fa {
+  padding: 5px;
+  margin: 5px;
+  font-size: 7px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border: 0.5px solid #fff;
+  border-radius: 50%;
+}
+
+.fa-facebook,
+.fa-google,
+.fa-linkedin {
+  background-color: inherit;
+  color: #fff;
 }
