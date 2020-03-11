@@ -4,7 +4,7 @@ body {
 h2 {
   color: #16e0bd;
 }
-/* header */
+/***********************************  header *****************/
 
 header {
   background-color: rgb(17, 28, 41);
@@ -43,7 +43,7 @@ header {
 #portfolio {
   text-align: center;
 }
-/*testing****************************** testing ******************/
+/*testing****************************** testing media ******************/
 @media (min-width: 600px) {
   .portfolio-section {
     display: flex;
@@ -80,7 +80,7 @@ header {
   color: #fff;
   padding: 15px;
 }
-/*testing******************************************** testing******/
+/*testing*************************** testing ******************/
 @media (min-width: 600px) {
   .about-content {
     display: flex;
@@ -90,7 +90,7 @@ header {
   }
 }
 
-/******************************contact *************************/
+/****************************** contact *************************/
 
 #contact {
   text-align: center;
@@ -140,6 +140,8 @@ header {
   text-align: center;
 }
 
+/******************************* white star ******************/
+
 .star-white {
   color: #fff;
   margin: 0px auto;
@@ -151,6 +153,7 @@ header {
   width: 4%;
 }
 
+/******************************* black star ***********************/
 .star-black {
   color: #000;
   margin: 0px auto;
